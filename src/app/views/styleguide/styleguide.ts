@@ -12,6 +12,7 @@ import {
 	BaseRouteComponent,
 	RouteResolve,
 } from '../../../lib/gj-lib-client/components/route/route-component';
+import { AppContentEditorStyleguide } from '../../../lib/gj-lib-client/components/content-editor/content-editor-styleguide';
 
 @View
 @Component({
@@ -22,6 +23,7 @@ import {
 		AppListGroupStyleguide,
 		AppProgressBarStyleguide,
 		AppJolticonsStyleguide,
+		AppContentEditorStyleguide,
 	},
 	directives: {
 		AppScrollTo,
